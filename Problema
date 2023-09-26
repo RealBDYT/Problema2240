@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c;
+
+    cout<<"Numarul de caini??"<<endl;
+    cin>>c;
+
+    cout<<"Numarul de pisici"<<endl;
+    cout<<c * 2<<endl;
+
+    cout<<"Numarul de gaini"<<endl;
+    cout<<c * 4<<endl;
+
+    cout<<"Suma animalelor"<<endl;
+    cout<<c + (c * 2) + (c * 4)<<endl;
+
+    return 0;
+}
